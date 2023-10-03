@@ -1,0 +1,541 @@
+@include('layouts.header')
+
+    <!-- Loader -->
+    <div id="bx-overlay">
+        <span class="loader"> </span>
+    </div>
+
+    <!-- Header section -->
+    <header class="bg bx-static">
+        <div class="container">
+            <div class="nav-sec padding-b-50">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt="logo"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav" id="top-menu">
+                                <li class="nav-item active">
+                                    <a class="nav-link bx-nav" aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link bx-nav" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link bx-nav" href="#experience">Experience</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link bx-nav" href="#portfolio">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link bx-nav" href="#news">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link bx-nav" href="#contact">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a class="custom-btn bx-btn m-r-5px" href="javascript:void(0)">Get a quote</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home section -->
+    <section id="home" class="bx-home home-section bx-section padding-tb-80 bg-shape-hero">
+        <img id="shape1" class="parallax" src="assets/img/bg/shape-1.png" alt="shape">
+        <img id="shape2" class="parallax top" src="assets/img/bg/shape-2.png" alt="shape">
+        <img id="shape3" class="parallax left top" src="assets/img/bg/shape-3.png" alt="shape">
+        <img id="shape4" class="parallax left" src="assets/img/bg/shape-4.png" alt="shape">
+        <img id="shape5" class="parallax bottom" src="assets/img/bg/shape-5.png" alt="shape">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="basic-details" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="info">
+                            <span class="primary-color">Hello, My name is</span>
+                            <h1>Isabelle Ryal</h1>
+                            <h2>Im a Web Developer</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, praesentium!</p>
+                            <div class="buttons">
+                                <a class="custom-btn bx-btn" href="javascript:void(0)">Hire Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="profile-img">
+                        <div class="profile-detail">
+                            <img src="assets/img/bg/girl.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home section End -->
+
+    <!-- Service section -->
+    <section id="service" class="bx-service-section bx-section padding-tb-80 body-bg">
+        <div class="container">
+            <div class="row">
+                <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                    <p class="light-txt">best it service</p>
+                    <h2>It Industries We’re<span class="primary-clr"> Offering</span></h2>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="section-card" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <div class="sr-no">
+                            <h6>01</h6>
+                        </div>
+                        <div class="card-description">
+                            <img src="assets/img/service/icon-1.png" alt="">
+                            <div class="detailed-txt">
+                                <h5>Graphics design</h5>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="section-card" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <div class="sr-no">
+                            <h6>02</h6>
+                        </div>
+                        <div class="card-description">
+                            <img src="assets/img/service/icon-2.png" alt="">
+                            <div class="detailed-txt">
+                                <h5>Devlopment</h5>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="section-card" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <div class="sr-no">
+                            <h6>03</h6>
+                        </div>
+                        <div class="card-description">
+                            <img src="assets/img/service/icon-3.png" alt="">
+                            <div class="detailed-txt">
+                                <h5>SEO Friendly</h5>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-bottom" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Service section End -->
+
+    <!-- Start About section -->
+    <section id="about" class="bx-about-section bx-section padding-b-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="sec-img" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <img src="assets/img/about/img-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="detailed-content" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <div class="title">
+                            <p class="light-txt">About us</p>
+                            <h2>Creativity bleeds from the
+                                pen of<span class="primary-clr"> inspiration</span></h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat molestiae veniam autem
+                                alias in provident est.</p>
+                        </div>
+                        <div class="personal-detail">
+                            <div class="content">
+                                <div class="left">
+                                    <div class="name pb">
+                                        <span class="info">Full Name :</span>
+                                        <span class="detail">Richard Lord </span>
+                                    </div>
+                                    <div class="age pb">
+                                        <span class="info">Age :</span>
+                                        <span class="detail">30 Years</span>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="ph pb">
+                                        <span class="info">Phone No :</span>
+                                        <span class="detail">+00 987654321</span>
+                                    </div>
+
+                                    <div class="email pb">
+                                        <span class="info">Email :</span>
+                                        <span class="detail">example@example.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mail">
+                                <div class="mail">
+                                    <div class="address">
+                                        <span class="info">Address :</span>
+                                        <span class="detail">Ruami mellow moraes,- Salvador, Brazil</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About section -->
+
+    <!-- Start Experience & Education section -->
+    <section id="experience" class="bx-experience-section bx-section padding-tb-80">
+        <div class="container">
+            <div class="shape-1"></div>
+            <div class="shape-2"></div>
+            <div class="row mb-m-30">
+                <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                    <p class="light-txt">qualification</p>
+                    <h2>My<span class="primary-clr"> achievements</span></h2>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="education bx-box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                        <h4>Education</h4>
+                        <ul class="timeline">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-info">
+                                        <span>June 15, 2013 - 2016</span>
+                                    </div>
+                                    <h5 class="timeline-title">Master in Computer Engineering<span class="sub">- First
+                                            Class</span></h5>
+                                    <p>Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiusmod
+                                        Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-info">
+                                        <span>June 12, 2010 - 2013</span>
+                                    </div>
+                                    <h5 class="timeline-title">Bachelor in Computer Engineering<span class="sub">- First
+                                            Class</span></h5>
+                                    <p>Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiusmod
+                                        Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-info">
+                                        <span>June 1, 2009 - 2010</span>
+                                    </div>
+                                    <h5 class="timeline-title">Higher Secondary<span class="sub">- (A+)</span></h5>
+                                    <p>Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiusmod
+                                        Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="experience bx-box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <h4>experience</h4>
+                        <ul class="timeline">
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-info">
+                                        <span>March 12, 2020</span>
+                                    </div>
+                                    <h5 class="timeline-title">Envato<span class="sub">- Team Leader</span></h5>
+                                    <p>Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiusmod
+                                        Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-info">
+                                        <span>January 23, 2018 - 2020</span>
+                                    </div>
+                                    <h5 class="timeline-title">Facebook Company<span class="sub">- Sr. Developer</span>
+                                    </h5>
+                                    <p>Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiusmod
+                                        Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam</p>
+                                </div>
+                            </li>
+                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-info">
+                                        <span>July 23, 2016 - 2018</span>
+                                    </div>
+                                    <h5 class="timeline-title">Twitter Company<span class="sub">- Jr. Developer</span>
+                                    </h5>
+                                    <p>Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiusmod
+                                        Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Experience & Education Section -->
+
+    <!-- Start Portfolio Section -->
+    <section id="portfolio" class="bx-portfolio-section bx-section portfolio padding-tb-80">
+        <div class="container">
+            <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                <p class="ligh-title">Portfolio</p>
+                <h2>My <span class="primary-clr">Portfolio</span></h2>
+
+            </div>
+            <div class="row m-b-minus-24px">
+                <div class="portfolio-content">
+                    <div>
+                        <div class="row">
+                            <div class="col-sm-12" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                <div class="portfolio-tabs">
+                                    <ul>
+                                        <li class="filter" data-filter="all">ALL</li>
+                                        <li class="filter" data-filter=".design">DESIGN</li>
+                                        <li class="filter" data-filter=".development">DEVELOPMENT</li>
+                                        <li class="filter" data-filter=".graphics">GRAPHICS</li>
+                                        <li class="filter" data-filter=".templates">Templates</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="2000"
+                                data-aos-delay="600">
+                                <div class="portfolio-content-items">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-xs-12 mix graphics templates">
+                                            <div class="hovereffect">
+                                                <div class="portfolio-img">
+                                                    <img src="assets/img/portfolio/img-1.jpg" alt="graphics">
+                                                    <h3><span>3D Graphics</span><span>Templates</span></h3>
+                                                </div>
+                                                <div class="overlay">
+                                                    <div class="overlay-info">
+                                                        <a class="info" href="#">Nitro - Car Service</a>
+                                                        <a class="info" data-fancybox="gallery"
+                                                            href="assets/img/portfolio/img-1.jpg"><i
+                                                                class="fa-solid fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-xs-12 mix design">
+                                            <div class="hovereffect">
+                                                <div class="portfolio-img">
+                                                    <img src="assets/img/portfolio/img-2.jpg" alt="design">
+                                                    <h3><span>Web Design</span></h3>
+                                                </div>
+                                                <div class="overlay">
+                                                    <div class="overlay-info">
+                                                        <a class="info" href="#">Boros - Artificial Intelligence</a>
+                                                        <a class="info" data-fancybox="gallery"
+                                                            href="assets/img/portfolio/img-2.jpg"><i
+                                                                class="fa-solid fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-xs-12 mix design">
+                                            <div class="hovereffect">
+                                                <div class="portfolio-img">
+                                                    <img src="assets/img/portfolio/img-3.jpg" alt="design">
+                                                    <h3><span>Web Design</span></h3>
+                                                </div>
+                                                <div class="overlay">
+                                                    <div class="overlay-info">
+                                                        <a class="info" href="#">Mila - Virtual Reality</a>
+                                                        <a class="info" data-fancybox="gallery"
+                                                            href="assets/img/portfolio/img-3.jpg"><i
+                                                                class="fa-solid fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+                                            <div class="hovereffect">
+                                                <div class="portfolio-img">
+                                                    <img src="assets/img/portfolio/img-4.jpg" alt="development">
+                                                    <h3><span>Development</span></h3>
+                                                </div>
+                                                <div class="overlay">
+                                                    <div class="overlay-info">
+                                                        <a class="info" href="#">Sen - Hotel Website</a>
+                                                        <a class="info" data-fancybox="gallery"
+                                                            href="assets/img/portfolio/img-4.jpg"><i
+                                                                class="fa-solid fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-xs-12 mix templates design">
+                                            <div class="hovereffect">
+                                                <div class="portfolio-img">
+                                                    <img src="assets/img/portfolio/img-1.jpg" alt="templates">
+                                                    <h3><span>Templates</span><span>Web Design</span></h3>
+                                                </div>
+                                                <div class="overlay">
+                                                    <div class="overlay-info">
+                                                        <a class="info" href="#">Ekka - eCommerce template</a>
+                                                        <a class="info" data-fancybox="gallery"
+                                                            href="assets/img/portfolio/img-1.jpg"><i
+                                                                class="fa-solid fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-xs-12 mix development graphics">
+                                            <div class="hovereffect">
+                                                <div class="portfolio-img">
+                                                    <img src="assets/img/portfolio/img-2.jpg" alt="development">
+                                                    <h3><span>Development</span><span>3D Graphics</span></h3>
+                                                </div>
+                                                <div class="overlay">
+                                                    <div class="overlay-info">
+                                                        <a class="info" href="#">Bukki - Teck crafts</a>
+                                                        <a class="info" data-fancybox="gallery"
+                                                            href="assets/img/portfolio/img-2.jpg"><i
+                                                                class="fa-solid fa-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- Start News Section -->
+    <section id="news" class="bx-news-section bx-section padding-tb-80 bg-shape">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+            <div class="shape-1"></div>
+            <div class="shape-2"></div>
+            <div class="row">
+                <div class="title">
+                    <p class="light-txt">blogs</p>
+                    <h2>Latest<span class="primary-clr"> news</span></h2>
+                </div>
+            </div>
+            <div class="bx-news-detail">
+                <div class="row">
+                    <div class="news-slider">
+                        <div class="carousel-wrap">
+                            <div class="owl-carousel news-carousel">
+                                <div class="item">
+                                    <div class="card" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                        <img src="assets/img/news/img-2.jpg" alt="">
+                                        <div class="news-card-details">
+                                            <p class="primary-clr">By Admin <span class="comments">- 04 Comments</span>
+                                            </p>
+                                            <h5>Lorem ipsum dolor sit amet.</h5>
+                                            <div class="read-more-btn">Read More <a class="info"><i
+                                                        class="fa-solid fa-arrow-right"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                        <img src="assets/img/news/img-3.jpg" alt="">
+                                        <div class="news-card-details">
+                                            <p class="primary-clr">By Admin <span class="comments">- 04 Comments</span>
+                                            </p>
+                                            <h5>Lorem ipsum dolor sit amet.</h5>
+                                            <div class="read-more-btn">Read More <a class="info"><i
+                                                        class="fa-solid fa-arrow-right"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                        <img src="assets/img/news/img-2.jpg" alt="">
+                                        <div class="news-card-details">
+                                            <p class="primary-clr">By Admin <span class="comments">- 04 Comments</span>
+                                            </p>
+                                            <h5>Lorem ipsum dolor sit amet.</h5>
+                                            <div class="read-more-btn">Read More <a class="info"><i
+                                                        class="fa-solid fa-arrow-right"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 right-content offset-lg-6">
+                        <div class="news-right-img">
+                            <img src="assets/img/news/img-1.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End News Section -->
+
+    <!-- Start Contact us Section -->
+    <section id="contact" class="bx-contact-section bx-section padding-tb-80 body-bg">
+        <div class="container">
+            <div class="title" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                <p class="light-txt">form</p>
+                <h2>Get In<span class="primary-clr"> Touch</span></h2>
+            </div>
+            <form>
+                <div class="row">
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <div class="border-box">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="fname" placeholder="Full Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="umail" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="phone" placeholder="Phone">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control border-none" id="subject" placeholder="Subject">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="custom-btn bx-btn-1">Submit</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <!-- End Contact us Section -->
+
+
+@include('layouts.footer')
